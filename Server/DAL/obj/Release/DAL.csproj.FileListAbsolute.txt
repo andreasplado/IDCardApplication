@@ -1,0 +1,12 @@
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\DAL\bin\Release\DAL.dll.config
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\DAL\bin\Release\DAL.dll
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\DAL\bin\Release\DAL.pdb
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\DAL\bin\Release\Domain.dll
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\DAL\bin\Release\EntityFramework.dll
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\DAL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\DAL\bin\Release\Domain.pdb
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\DAL\bin\Release\EntityFramework.xml
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\DAL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\DAL\obj\Release\DAL.dll
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\DAL\obj\Release\DAL.pdb

@@ -1,0 +1,10 @@
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\Domain\bin\Release\Domain.dll.config
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\Domain\bin\Release\Domain.dll
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\Domain\bin\Release\Domain.pdb
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\Domain\bin\Release\EntityFramework.dll
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\Domain\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\Domain\bin\Release\EntityFramework.xml
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\Domain\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\Domain\obj\Release\Domain.csprojResolveAssemblyReference.cache
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\Domain\obj\Release\Domain.dll
+C:\Users\Andreas\Desktop\VR2\restWebApp\VR2_Serverrakendus\Domain\obj\Release\Domain.pdb

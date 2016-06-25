@@ -1,0 +1,13 @@
+C:\Users\Andreas\Desktop\Tetsülesanne\VR2_Klientrakendus\Klientrakendus.Test\bin\Debug\Klientrakendus.Test.dll
+C:\Users\Andreas\Desktop\Tetsülesanne\VR2_Klientrakendus\Klientrakendus.Test\bin\Debug\Klientrakendus.Test.pdb
+C:\Users\Andreas\Desktop\Tetsülesanne\VR2_Klientrakendus\Klientrakendus.Test\bin\Debug\nunit.framework.dll
+C:\Users\Andreas\Desktop\Tetsülesanne\VR2_Klientrakendus\Klientrakendus.Test\bin\Debug\VR2_Klientrakendus.exe
+C:\Users\Andreas\Desktop\Tetsülesanne\VR2_Klientrakendus\Klientrakendus.Test\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Andreas\Desktop\Tetsülesanne\VR2_Klientrakendus\Klientrakendus.Test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Andreas\Desktop\Tetsülesanne\VR2_Klientrakendus\Klientrakendus.Test\bin\Debug\VR2_Klientrakendus.pdb
+C:\Users\Andreas\Desktop\Tetsülesanne\VR2_Klientrakendus\Klientrakendus.Test\bin\Debug\nunit.framework.xml
+C:\Users\Andreas\Desktop\Tetsülesanne\VR2_Klientrakendus\Klientrakendus.Test\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Andreas\Desktop\Tetsülesanne\VR2_Klientrakendus\Klientrakendus.Test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Andreas\Desktop\Tetsülesanne\VR2_Klientrakendus\Klientrakendus.Test\obj\Debug\Klientrakendus.Test.dll
+C:\Users\Andreas\Desktop\Tetsülesanne\VR2_Klientrakendus\Klientrakendus.Test\obj\Debug\Klientrakendus.Test.pdb
+C:\Users\Andreas\Desktop\Tetsülesanne\VR2_Klientrakendus\Klientrakendus.Test\obj\Debug\Klientrakendus.Test.csprojResolveAssemblyReference.cache
