@@ -12,23 +12,28 @@ using DAL.Interfaces;
 
 namespace DAL.Repositories
 {
-    // this is universal base EF repository implementation, to be included in all other repos
-    // covers all basic crud methods, common for all other repos
+    /// <summary>
+    /// This is universal base EF repository implementation, to be included in all other repos.
+    /// Covers all basic crud methods, common for all other repos.
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class EFRepository<T> : IEFRepository<T> where T : class
     {
 
-        // the context and the dbset we are working with
+        // The context and the dbset we are working with.
+        // Kontekst ja dbset, millega tehakse tööd.
         protected DbContext DbContext { get; set; }
         protected DbSet<T> DbSet { get; set; }
 
-        //Constructor, requires dbContext as dependency
+        //Constructor, requires dbContext as dependency.
+        //Konstruktor, mis vajab dbContext-i.
         public EFRepository(IDbContext dbContext)
         {
             if (dbContext == null)
                 throw new ArgumentNullException(nameof(dbContext));
 
             DbContext = dbContext as DbContext;
-            //get the dbset from context
+            //Get the dbset from context.
             if (DbContext != null) DbSet = DbContext.Set<T>();
 
             if (DbSet == null)
@@ -42,14 +47,6 @@ namespace DAL.Repositories
             return includeProperties.
                 Aggregate<Expression<Func<T, object>>, IQueryable<T>>(DbSet,
                     (current, includeProperty) => current.Include(includeProperty)).ToList();
-            /*
-        	// non linq version
-        	foreach (var includeProperty in includeProperties)
-        	{
-        		query = query.Include(includeProperty);
-        	}
-        	return query.ToList();
-        	*/
         }
 
         public virtual T GetById(params object[] id)
@@ -135,7 +132,6 @@ namespace DAL.Repositories
         public virtual void Dispose()
         {
             //Nothing to dispose
-            //maybe log something?
         }
     }
 }

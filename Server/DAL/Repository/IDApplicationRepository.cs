@@ -9,14 +9,14 @@ using Domain.Aggregate;
 
 namespace DAL.Repositories
 {
-    public class IDApplicationRepository : EFRepository<IDApplication>, IUserRepository
+    /// <summary>
+    /// Make database queries that are not associated with business logic.
+    /// Tee andmebaasi päringuid, mis ei ole seotud äriloogikaga.
+    /// </summary>
+    public class IDApplicationRepository : EFRepository<IDApplication>, IIDApplicationRepository
     {
         public IDApplicationRepository(IDbContext dbContext) : base(dbContext)
         {
-        }
-        public List<ApplicantWithContactCount> GetUsersWithContactCount()
-        {
-            return null;
         }
 
     }

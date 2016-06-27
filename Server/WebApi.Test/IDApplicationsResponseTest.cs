@@ -12,7 +12,7 @@ using NUnit.Framework;
 namespace WebApi.Test
 {
     [TestFixture]
-    public class ServiceResponseTest
+    public class IDApplicationsResponseTest
     {
         private HttpClient client;
         private HttpResponseMessage response;
@@ -24,25 +24,18 @@ namespace WebApi.Test
             client.BaseAddress = new Uri(Constants.baseUrl);
             response = client.GetAsync("api/idapplications").Result;
         }
+
         [Test]
         public void GetResponseIsSuccess()
          {
             Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
         }
 
-
-    [Test]
-     public void GetResponseIsJson()
+        [Test]
+        public void GetIDApplicationsResponseIsJson()
         {
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             Assert.AreEqual("application/json", response.Content.Headers.ContentType.MediaType);
          }
- 
-        [Test]
-        public void GetAuthenticationStatus()
-         {
-            Assert.AreNotEqual(HttpStatusCode.Unauthorized,
-                response.StatusCode);
-        }
     }
 }

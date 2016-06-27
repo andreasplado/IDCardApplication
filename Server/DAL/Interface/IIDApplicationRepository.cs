@@ -8,9 +8,8 @@ using Domain.Aggregate;
 
 namespace DAL.Interfaces
 {
-    public interface IUserRepository : IEFRepository<IDApplication>
+    public interface IIDApplicationRepository : IEFRepository<IDApplication>
     {
-        List<ApplicantWithContactCount> GetUsersWithContactCount();
 
     }
 }

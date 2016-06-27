@@ -9,6 +9,11 @@ using System.Threading.Tasks;
 
 namespace VR2_Klientrakendus.Service
 {
+
+    /// <summary>
+    /// Asyncronous CRUD methots against the Web API server.
+    /// Asünkroonsed CRUD meetodid Web API serveri vastu.
+    /// </summary>
     public class BaseService
     {
         private HttpClient _client;
@@ -25,11 +30,7 @@ namespace VR2_Klientrakendus.Service
 
         public async Task<T> GetData<T>(string url)
         {
-            //            Task<HttpResponseMessage> result = this._client.GetAsync(url);
-            //            //siin on hästi palju tööd
-            //            var ret = await result;
-            string lol = url;
-            HttpResponseMessage resp = await this._client.GetAsync(url); //kui meil on vaja tulemust tagasi saada kirjutame await operaatori ette.
+            HttpResponseMessage resp = await this._client.GetAsync(url);
             resp.EnsureSuccessStatusCode();
             return await resp.Content.ReadAsAsync<T>();
         }

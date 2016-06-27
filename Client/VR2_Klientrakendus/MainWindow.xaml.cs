@@ -39,17 +39,6 @@ namespace VR2_Klientrakendus
             this.DataContext = _vm;
         }
 
-        private void TxtSearch_GotFocus(object sender, RoutedEventArgs e)
-        {
-            TextBox tb = (TextBox) sender;
-            tb.Text = string.Empty;
-            tb.GotFocus -= TxtSearch_GotFocus;
-        }
-
-
-
-
-
         private void LbUsers_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
         }
@@ -72,6 +61,7 @@ namespace VR2_Klientrakendus
 
         private void ApplyApplication(object sender, RoutedEventArgs e)
         {
+            //if some of the fields are not filled with data.
             if (TxtAddress.Text.Equals("") || TxtCountry.Text.Equals("")
                 || TxtFirstName.Text.Equals("")
                 || TxtIdNumber.Text.Equals("")
@@ -162,6 +152,7 @@ namespace VR2_Klientrakendus
                 {
                     gender = "M";
                 }
+                //define the object that will be posted to the server.
                 IDApplication idApplication = new IDApplication()
                 {
                     Added = DateTime.Now,
@@ -181,8 +172,8 @@ namespace VR2_Klientrakendus
                     IssuerLastName = TxtIssuerLastName.Text
 
                 };
-                _vm.AddImage(filePath);
-                _vm.AddApplication(idApplication);
+                _vm.AddImage(filePath); //uploads the image to the server
+                _vm.AddApplication(idApplication); //posts id application to the server
                 _vm.AddLog(log);
                 TxtAddress.Text = "";
                 TxtCountry.Text = "";
@@ -239,11 +230,11 @@ namespace VR2_Klientrakendus
 
         private void BtnSearch_Click(object sender, RoutedEventArgs e)
         {
-            string firstName = TxtSearch.Text;
-            _vm.LoadApplicationsByFirstName(firstName);
+            string searchQuery = TxtSearch.Text.ToLower();
+            _vm.LoadApplicationsByFirstName(searchQuery);
             if (_vm.IdApplications.Count == 0)
             {
-                //Kui andmeid ei leitud
+                //Kui andmeid ei leitud.
                 TxtApplicationInfo.Visibility = Visibility.Visible;
                 TxtApplicationInfo.Text = "";
             }

@@ -10,6 +10,10 @@ using VR2_Klientrakendus.Service.Interfaces;
 
 namespace VR2_Klientrakendus.Service
 {
+    /// <summary>
+    /// Asyncronous ID card application log service methods that are used in client-side application.
+    /// Asünkroonsed ID kaardi taotluse logi teenusmeetodid, mida kasutatakse klientipoolses rakenduses.
+    /// </summary>
     public class LogService : BaseService, ILogService
     {
 

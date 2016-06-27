@@ -7,6 +7,10 @@ using VR2_Klientrakendus.Service;
 
 namespace VR2_Klientrakendus.Models
 {
+    /// <summary>
+    /// Defines the ID card application model for an application.
+    /// Defineerib ID kaardi taotluse mudeli rakenduses.
+    /// </summary>
     public class IDApplication
     {
         public int  IdApplicationId { get; set; }

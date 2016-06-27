@@ -10,8 +10,6 @@ namespace DAL.Helpers
 {
     public class EFRepositoryFactories : IDisposable
     {
-        // Func<T, TResult> Delegate
-        // https://msdn.microsoft.com/en-us/library/bb549151(v=vs.110).aspx
 
         private readonly IDictionary<Type, Func<IDbContext, object>> _repositoryFactories;
 
@@ -31,7 +29,7 @@ namespace DAL.Helpers
         {
             return new Dictionary<Type, Func<IDbContext, object>>
                 {
-                    {typeof(IUserRepository), dbContext => new IDApplicationRepository(new IDApplicationDbContext())},
+                    {typeof(IIDApplicationRepository), dbContext => new IDApplicationRepository(new IDApplicationDbContext())},
                 };
         }
 

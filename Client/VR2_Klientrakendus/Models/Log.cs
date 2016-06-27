@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace VR2_Klientrakendus.Models
 {
+    /// <summary>
+    /// Defines the log models.
+    /// </summary>
     public class Log
     {
         public int LogId { get; set; }

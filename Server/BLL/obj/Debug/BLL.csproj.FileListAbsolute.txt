@@ -88,3 +88,8 @@ C:\Users\Andreas\Desktop\Tetsülesanne\Server\BLL\bin\Debug\System.Data.SQLite.x
 C:\Users\Andreas\Desktop\Tetsülesanne\Server\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\Users\Andreas\Desktop\Tetsülesanne\Server\BLL\obj\Debug\BLL.dll
 C:\Users\Andreas\Desktop\Tetsülesanne\Server\BLL\obj\Debug\BLL.pdb
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\BLL\bin\Debug\Castle.Core.dll
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\BLL\bin\Debug\Mindbox.Data.Linq.dll
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\BLL\bin\Debug\Mindbox.Expressions.dll
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\BLL\bin\Debug\Castle.Core.xml
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\BLL\bin\Debug\Mindbox.Expressions.xml

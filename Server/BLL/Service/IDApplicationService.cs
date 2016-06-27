@@ -11,13 +11,18 @@ using DAL;
 using DAL.Interfaces;
 using DAL.Repositories;
 using Domain;
+using System.Data.Linq.SqlClient;
 
 namespace BLL.Service
 {
+    /// <summary>
+    /// Database queries for the IDApplicationsController.
+    /// Andmebaasi päringud IDApplciationsController-i jaoks.
+    /// </summary>
     public class IDApplicationService
     {
 
-        private readonly IUserRepository _repo;
+        private readonly IIDApplicationRepository _repo;
         private readonly IDApplicationDTOFactory _idApplicationDtoFactory;
         public IDApplicationRepository IdApplicationRepository;
 

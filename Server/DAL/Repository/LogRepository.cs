@@ -10,6 +10,10 @@ using Domain;
 
 namespace DAL.Repository
 {
+    /// <summary>
+    /// Make database queries that are not associated with business logic.
+    /// Tee andmebaasi päringuid, mis ei ole seotud äriloogikaga.
+    /// </summary>
     public class LogRepository : EFRepository<Log>, ILogRepository
     {
         public LogRepository(IDbContext dbContext) : base(dbContext)

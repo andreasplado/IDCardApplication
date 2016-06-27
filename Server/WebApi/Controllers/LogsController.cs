@@ -24,7 +24,11 @@ namespace WebApi.Controllers
             _logService = new LogService();
         }
 
-        // GET: api/Logs
+        /// <summary>
+        /// Gets all ID card application logs trough url : api/logs
+        /// Saab ID kaardi taotluse logi läbi urli: api/idApplications
+        /// </summary>
+        /// <returns>All applied ID card applications in JSON format. Kõik ID kaardi taotlused JSON formaadis.</returns>
         public IHttpActionResult GetLogs()
         {
             List<LogDTO> logs = _logService.GetAllLogs();
@@ -35,7 +39,12 @@ namespace WebApi.Controllers
             return Ok(logs);
         }
 
-        // GET: api/Logs/5
+        /// <summary>
+        /// Gets log by id trough url : api/logs/{id}
+        /// Saab logi id järgi läbi urli: api/logs/{id}
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>Status code. Staatuskood</returns>
         [ResponseType(typeof(Log))]
         public IHttpActionResult GetLog(int id)
         {
@@ -48,7 +57,13 @@ namespace WebApi.Controllers
             return Ok(log);
         }
 
-        // PUT: api/Logs/5
+        /// <summary>
+        /// Updates one ID card application log through url: api/logs/{id}
+        /// Uuendab ühe ID kaardi taotluse logi läbi urli: api/logs/{id}
+        /// </summary>
+        /// <param name="id">Log id. Logi id</param>
+        /// <param name="log">Log object. Logi objekt.</param>
+        /// <returns></returns>
         [ResponseType(typeof(void))]
         public IHttpActionResult PutLog(int id, Log log)
         {
@@ -65,7 +80,12 @@ namespace WebApi.Controllers
             return StatusCode(HttpStatusCode.NoContent);
         }
 
-        // POST: api/Logs
+        /// <summary>
+        /// Adds ID card application through url : api/idapplication
+        /// Lisab ID kaardi taotluse läbi url-i : api/idapplication
+        /// </summary>
+        /// <param name="applicant"></param>
+        /// <returns>Status code. Staatuskood</returns>
         [ResponseType(typeof(Log))]
         public IHttpActionResult PostLog(Log log)
         {
@@ -78,7 +98,12 @@ namespace WebApi.Controllers
             return CreatedAtRoute("DefaultApi", new { id = log.LogId }, log);
         }
 
-        // DELETE: api/Logs/5
+        /// <summary>
+        /// Deletes ID card application log through url: api/logs/{id}
+        /// Kustutab ID kaardi taotluse logi läbi URL-i: api/logs/{id}
+        /// </summary>
+        /// <param name="id">ID card application id. ID kaardi taotluse id</param>
+        /// <returns>Status code. Staatuskood</returns>
         [ResponseType(typeof(Log))]
         public IHttpActionResult DeleteLog(int id)
         {

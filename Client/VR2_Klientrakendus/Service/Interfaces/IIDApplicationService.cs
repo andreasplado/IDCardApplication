@@ -13,9 +13,9 @@ namespace VR2_Klientrakendus.Service.Interfaces
         Task<ObservableCollection<IDApplication>> GetAll();
         Task<ObservableCollection<IDApplication>> GetByName(string searchquery);
         Task<IDApplication> GetById(int idApplicationId);
-        Task<IDApplication> Add(IDApplication user);
-        Task<IDApplication> Update(IDApplication user, int userId);
-        Task<IDApplication> Delete(int userId);
+        Task<IDApplication> Add(IDApplication idApplication);
+        Task<IDApplication> Update(IDApplication idApplication, int idApplicationId);
+        Task<IDApplication> Delete(int idAppllicationId);
         Task<ObservableCollection<IDApplication>> GetBySearchQuery(string searchQuery);
     }
 }

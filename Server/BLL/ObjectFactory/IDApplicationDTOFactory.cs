@@ -15,7 +15,12 @@ namespace BLL.ObjectFactory
         {
             
         }
-
+        /// <summary>
+        /// Creates document transfer objerct.
+        /// Loob andmeedastus objekti.
+        /// </summary>
+        /// <param name="idapplication">Object that is taken from domain model. Domeenimudelist võetud objekt IDApplication.</param>
+        /// <returns>The object that will be translated according to business advantage. Objekt, mis tõlgitakse ära vastavalt ärivajadustele(Log). </returns>
         public IDApplicationDTO CreateBasicDTO(IDApplication idapplication)
         {
             return new IDApplicationDTO

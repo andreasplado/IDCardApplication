@@ -16,6 +16,10 @@ using VR2_Klientrakendus.Service.Interfaces;
 
 namespace VR2_Klientrakendus.ViewModels
 {
+    /// <summary>
+    /// ViewModel for Mainwindow.xaml.cs.
+    /// Vaatemudel MainWindow.xaml.cs-i jaoks.
+    /// </summary>
     public class MainWindowVM :INotifyPropertyChanged
     {
         private readonly IIDApplicationService _idApplicationService;

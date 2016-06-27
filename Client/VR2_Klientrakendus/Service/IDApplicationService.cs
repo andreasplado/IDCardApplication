@@ -10,6 +10,10 @@ using VR2_Klientrakendus.Service.Interfaces;
 
 namespace VR2_Klientrakendus.Service
 {
+    /// <summary>
+    /// Asyncronous ID card application service methods that are used in client-side application.
+    /// Asünkroonsed ID kaardi taotluse teenusmeetodid, mida kasutatakse klientipoolses rakenduses.
+    /// </summary>
     public class IDApplicationService : BaseService, IIDApplicationService
     {
 
@@ -31,19 +35,19 @@ namespace VR2_Klientrakendus.Service
             return await base.GetData<IDApplication>(ServiceConstants.IdApplicationServiceUrl +"/" + iDApplicationId);
         }
 
-        public async Task<IDApplication> Add(IDApplication user)
+        public async Task<IDApplication> Add(IDApplication idApplication)
         {
-            return await base.PostData(user);
+            return await base.PostData(idApplication);
         }
 
-        public async Task<IDApplication> Update(IDApplication user, int userId)
+        public async Task<IDApplication> Update(IDApplication idApplication, int idApplicationId)
         {
-            return await base.PutData(user, userId);
+            return await base.PutData(idApplication, idApplicationId);
         }
 
-        public async Task<IDApplication> Delete(int userId)
+        public async Task<IDApplication> Delete(int idAppllicationId)
         {
-            return await base.DeleteData<IDApplication>(userId);
+            return await base.DeleteData<IDApplication>(idAppllicationId);
         }
 
         public async Task<ObservableCollection<IDApplication>> GetBySearchQuery(string searchQuery)

@@ -13,9 +13,12 @@ using Domain;
 
 namespace BLL.Service
 {
+    /// <summary>
+    /// Database queries for the LogsController.
+    /// Andmebaasi päringud LogsController-i jaoks.
+    /// </summary>
     public class LogService
     {
-        
         private readonly ILogRepository _repo;
         private readonly LogDTOFactory _logDtoFactory;
         public LogRepository LogRepository;
@@ -24,7 +27,6 @@ namespace BLL.Service
         {
             this._repo = new LogRepository(new IDApplicationDbContext());
             this._logDtoFactory = new LogDTOFactory();
-            this.LogRepository = new LogRepository(new IDApplicationDbContext());
         }
 
 
