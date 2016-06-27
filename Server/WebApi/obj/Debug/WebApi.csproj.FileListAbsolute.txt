@@ -144,8 +144,6 @@ C:\Users\Andreas\Desktop\Tetsülesanne\Server\WebApi\bin\Microsoft.Web.Infrastru
 C:\Users\Andreas\Desktop\Tetsülesanne\Server\WebApi\bin\Newtonsoft.Json.dll
 C:\Users\Andreas\Desktop\Tetsülesanne\Server\WebApi\bin\Owin.dll
 C:\Users\Andreas\Desktop\Tetsülesanne\Server\WebApi\bin\System.Data.SQLite.dll
-C:\Users\Andreas\Desktop\Tetsülesanne\Server\WebApi\bin\System.Data.SQLite.EF6.dll
-C:\Users\Andreas\Desktop\Tetsülesanne\Server\WebApi\bin\System.Data.SQLite.Linq.dll
 C:\Users\Andreas\Desktop\Tetsülesanne\Server\WebApi\bin\System.Net.Http.Formatting.dll
 C:\Users\Andreas\Desktop\Tetsülesanne\Server\WebApi\bin\System.Web.Helpers.dll
 C:\Users\Andreas\Desktop\Tetsülesanne\Server\WebApi\bin\System.Web.Http.dll
