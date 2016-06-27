@@ -1,0 +1,3 @@
+C:\Users\Andreas\Desktop\Tetsülesanne\Client\VR2_Klientrakendus\bin\Debug\VR2_Klientrakendus.exe.config
+C:\Users\Andreas\Desktop\Tetsülesanne\Client\VR2_Klientrakendus\obj\Debug\VR2_Klientrakendus.exe
+C:\Users\Andreas\Desktop\Tetsülesanne\Client\VR2_Klientrakendus\obj\Debug\VR2_Klientrakendus.pdb

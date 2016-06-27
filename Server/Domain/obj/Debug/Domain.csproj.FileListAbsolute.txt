@@ -50,3 +50,17 @@ C:\Users\Andreas\Desktop\Tetsülesanne\VR2_Serverrakendus\Domain\bin\Debug\Syste
 C:\Users\Andreas\Desktop\Tetsülesanne\VR2_Serverrakendus\Domain\bin\Debug\System.Data.SQLite.Linq.dll
 C:\Users\Andreas\Desktop\Tetsülesanne\VR2_Serverrakendus\Domain\bin\Debug\System.Data.SQLite.xml
 C:\Users\Andreas\Desktop\Tetsülesanne\VR2_Serverrakendus\Domain\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\Domain\bin\Debug\Domain.dll.config
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\Domain\bin\Debug\Domain.dll
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\Domain\bin\Debug\Domain.pdb
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\Domain\bin\Debug\EntityFramework.dll
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\Domain\bin\Debug\System.Data.SQLite.dll
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\Domain\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\Domain\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\Domain\bin\Debug\EntityFramework.xml
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\Domain\bin\Debug\System.Data.SQLite.xml
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\Domain\obj\Debug\Domain.dll
+C:\Users\Andreas\Desktop\Tetsülesanne\Server\Domain\obj\Debug\Domain.pdb

@@ -33,8 +33,7 @@ namespace BLL.Service
             return _repo.All.Where(x => x.FirstName.ToUpper().Contains(query)
             || x.LastName.ToUpper().Contains(query)
             || x.FirstName.ToLower().Contains(query)
-            || x.LastName.ToLower().Contains(query)
-            /*|| Regex.IsMatch(x.FirstName, "A.*[mn]")*/).Select(x => _idApplicationDtoFactory.CreateBasicDTO(x)).ToList();
+            || x.LastName.ToLower().Contains(query)).Select(x => _idApplicationDtoFactory.CreateBasicDTO(x)).Distinct().ToList();
         }
 
         public List<IDApplicationDTO> GetApplicationsByLastName(string lastname)
