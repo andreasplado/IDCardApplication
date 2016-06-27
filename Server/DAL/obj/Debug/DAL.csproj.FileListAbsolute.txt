@@ -69,8 +69,6 @@ C:\Users\Andreas\Desktop\Tetsülesanne\Server\DAL\bin\Debug\Domain.dll
 C:\Users\Andreas\Desktop\Tetsülesanne\Server\DAL\bin\Debug\EntityFramework.dll
 C:\Users\Andreas\Desktop\Tetsülesanne\Server\DAL\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Andreas\Desktop\Tetsülesanne\Server\DAL\bin\Debug\System.Data.SQLite.dll
-C:\Users\Andreas\Desktop\Tetsülesanne\Server\DAL\bin\Debug\System.Data.SQLite.EF6.dll
-C:\Users\Andreas\Desktop\Tetsülesanne\Server\DAL\bin\Debug\System.Data.SQLite.Linq.dll
 C:\Users\Andreas\Desktop\Tetsülesanne\Server\DAL\bin\Debug\Domain.pdb
 C:\Users\Andreas\Desktop\Tetsülesanne\Server\DAL\bin\Debug\EntityFramework.xml
 C:\Users\Andreas\Desktop\Tetsülesanne\Server\DAL\bin\Debug\EntityFramework.SqlServer.xml
