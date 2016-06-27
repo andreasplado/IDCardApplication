@@ -57,6 +57,7 @@ An example of returned JSON using GET method on URL http://localhost:21855/api/i
     "updated": null
   }
 ]
+```
 
 ## Client-side application(WPF):
 ![alt tag](http://phonewe.freeiz.com/IDApplicationApplying.png)
