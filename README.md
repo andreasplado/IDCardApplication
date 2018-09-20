@@ -7,11 +7,6 @@ Used technologies:
 * WPF (Microsoft.AspNet.WebApi REST communication library)
 * Unfortunately I was not able to integrate Entity framework with embedded database.
 
-## Database model diagram(ERD):
-![alt tag](http://phonewe.freeiz.com/IDApplication.png)
-
-
-
 To run the program:
 * You must first run Server/Server.sln with Visual Studio.
 * Run without debug mode ctrl + F5.
