@@ -1,4 +1,4 @@
-# IDCardApplication
+# ID card application
 This RESTful program helps to apply Identification cards
 
 Used technologies:
