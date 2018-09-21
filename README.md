@@ -27,7 +27,6 @@ Service endpoints:
 * POST log : http://localhost:21855/api/log
 
 An example of returned JSON using GET method on URL http://localhost:21855/api/idapplications:
-
 ```json
 [
   {
@@ -53,6 +52,8 @@ An example of returned JSON using GET method on URL http://localhost:21855/api/i
   }
 ]
 ```
+
+<img src="https://github.com/andreasplado/static_files/raw/master/id-kaartdi%20taotlemine.png" />
 
 ## TODO:
 * Make pattern search available
