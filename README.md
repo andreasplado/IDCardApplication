@@ -52,6 +52,7 @@ An example of returned JSON using GET method on URL http://localhost:21855/api/i
   }
 ]
 ```
+<img src="https://github.com/andreasplado/static_files/raw/master/RESTFULAPI.png" />
 
 <img src="https://github.com/andreasplado/static_files/raw/master/id-kaartdi%20taotlemine.png" />
 
